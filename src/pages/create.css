@@ -1,0 +1,262 @@
+
+.complete-rs-heading{
+	font-size: 4vw;
+	font-family: sans-serif;
+/*	padding:2vw 0vw 2vw 20vw;*/
+	color:#fecb88;
+	font-weight: bold;
+	background-color: #12343b;
+	padding:1vw 0vw 1vw 9vw!important;
+}
+.complete-rs-heading:hover .complete-hd-icon{
+	color: blue;
+}
+.complete-hd-btn-box{
+	background-color:#12343b;
+	padding: 1vw 0vw;
+}
+button.complete-hd-btn-comman{
+	width: 100%;
+	height: 5vw;
+	color: #12343b;
+	background-color:#fecb88;
+	font-size: 2vw;
+	border: none;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 10%;
+}
+
+button.complete-hd-btn-comman:Hover{
+	color: #12343b;
+	color: white;
+	background-color: blue;
+}
+
+.create-form-box{
+	background-color: #fecb88;
+	padding: 4vw 0vw;
+}
+
+.create-form-box h2{
+	color: 12343b;
+	margin-top: 4vw;
+	font-weight: bold;
+	font-size: 3vw;
+}
+
+.create-form-box form input{
+	margin: .5vw 0vw;
+	padding: .8vw 1vw;
+	font-weight: bold;
+	font-size: 1.3vw;
+	color: blue!important;
+}
+.create-form-box form input:focus{
+	box-shadow: none;
+	outline: .2vw solid blue;
+}
+
+.create-form-box form textarea{
+	padding: .8vw 1vw;
+	margin: .5vw 0vw;
+	font-weight: bold;
+	color: blue!important;
+	font-size: 1.3vw;
+}
+.create-form-box form textarea:focus{
+	box-shadow: none;
+	outline: .2vw solid blue;
+}
+
+.create-form-box form select{
+	padding: .8vw 1vw;
+	margin: .5vw 0vw;
+	font-weight: bold;
+	color: blue!important;
+	font-size: 1.3vw;
+}
+.create-form-box form select:focus{
+	box-shadow: none;
+	outline: .2vw solid blue;
+}
+
+.create-form-box form button{
+	padding: .8vw 1.4vw;
+	margin: .5vw 0vw;
+	border: none;
+	font-size: 1.5vw;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 10%;
+}
+
+.create-reset-btn{
+	padding: .8vw 1.4vw;
+	margin: .5vw 0vw;
+	width: 100%;
+	font-weight: bold;
+	border: none;
+	font-size: 1.5vw;
+	color: #12343b;
+	margin: 2vw 0vw;
+	background-color: yellow;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.resume-triger-box{
+	background-color: #12343b;
+	padding: 2vw 8vw;
+}
+
+.resume-triger-btn{
+	border:none ;
+	width: 100%;
+	font-size: 2.2vw;
+	font-family: sans-serif;
+	padding: 3vw 0vw;
+	margin: 1vw 0vw;
+	background-color: #fecb88;
+	font-weight: bold;
+	border-radius: 5%;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.template-btn-box-hd{
+	font-size: 3vw;
+	font-family: sans-serif;
+	color: white;
+}
+
+
+
+/*media query*********************************************************************/
+/*extra small*/
+@media screen and (max-width:576px){
+  button.complete-hd-btn-comman{
+  	height: 10vw;
+  	font-size: 5vw;
+  	}
+  .complete-rs-heading{
+	font-size: 4.6vw;
+	text-align: center;
+	padding:2vw 0vw 2vw 0vw!important;
+	}
+	.create-form-box h2{
+	font-size: 5vw;
+	margin-top: 5vw;
+	}
+	.create-form-box form input{
+	padding: 2vw 2.2vw;
+	font-weight: bold;
+	font-size: 4vw;
+	border-radius: 0px;
+	}
+	.create-form-box form textarea{
+	padding: 2vw 2.2vw;
+	font-weight: bold;
+	font-size: 4vw;
+	border-radius: 0px;
+	}
+	.create-form-box form select{
+	padding: 2vw 2.2vw;
+	font-weight: bold;
+	font-size: 4vw;
+	border-radius: 0px;
+	}
+	.create-form-box form button{
+	padding: 2vw 4vw;
+	margin: .5vw 0vw;
+	border: none;
+	font-size: 4vw;
+	border-radius: 10%;
+	}
+	.create-reset-btn{
+	font-size: 3.5vw;
+	padding: 2vw;
+	}
+
+	.resume-triger-btn{
+		font-size: 4vw;
+	}
+
+	.resume-triger-box{
+	padding: 2vw 4.5vw;
+	}
+
+	.template-btn-box-hd{
+	font-size: 5vw;
+	}
+}
+
+
+/*small*/
+@media screen and (min-width:577px) and (max-width:767px){
+  button.complete-hd-btn-comman{
+  	height: 10vw;
+  	font-size: 5vw;
+  }
+  .complete-rs-heading{
+	font-size: 4.6vw;
+	text-align: center;
+	padding:2vw 0vw 2vw 0vw!important;
+	}
+	.create-form-box h2{
+	margin-top: 5vw;
+	font-size: 4vw;
+	}
+	.create-form-box form input{
+	padding: 1vw 1.2vw;
+	font-weight: bold;
+	font-size: 2vw;
+	border-radius: 0px;
+	}
+	.create-form-box form textarea{
+	padding: 1vw 1.2vw;
+	font-weight: bold;
+	font-size: 2vw;
+	border-radius: 0px;
+	}
+	.create-form-box form select{
+	padding: 1vw 1.2vw;
+	font-weight: bold;
+	font-size: 2vw;
+	border-radius: 0px;
+	}
+	.create-form-box form button{
+	padding: 1vw 1.5vw;
+	margin: .5vw 0vw;
+	border: none;
+	font-size: 2vw;
+	border-radius: 10%;
+	}
+	.create-reset-btn{
+	font-size: 2vw;
+	padding: 1.5vw;
+	}
+	.resume-triger-btn{
+		font-size: 4vw;
+	}
+	.resume-triger-box{
+	padding: 2vw 4.5vw;
+	}
+	.template-btn-box-hd{
+	font-size: 5vw;
+	}
+}
+
+
+/*mediam*/
+@media screen and (min-width:768px) and (max-width:991px){
+  
+}
+
+
+/*large*/
+@media screen and (min-width:992px) and (max-width:1199px){
+  
+}
+
+
+/*extra large*/
+@media screen and (min-width:1200px){
+  
+}

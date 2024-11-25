@@ -1,0 +1,63 @@
+
+.midTemp1Left-box{
+/*	border-right: .1vw solid black;*/
+}
+.midTemp1Right-box{
+/*	background-color: blue;*/
+}
+
+.midTemp1-cover h1{
+	font-size: 3.5vw;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-bottom: 0px;
+}
+.midTemp1-cover h2{
+	font-size: 2vw;
+	font-family: sans-serif;
+}
+.midTemp1-cover h4{
+	font-size: 1.5vw;
+	border-bottom: .1vw solid black;
+	margin-top: 2vw;
+}
+.midTemp1-cover h5{
+	font-size: 1.4vw;
+	margin: 0px;
+}
+.midTemp1-cover span{
+	font-weight: bold;
+	font-size: 1.3vw;
+
+}
+.midTemp1-cover p{
+	font-size: 1.2vw;
+	text-align: justify;
+}
+.midTemp1-cover ul li{
+	font-size: 1.2vw;
+	padding: 0px;
+}
+
+.contact-list{
+	padding: 0px;
+	list-style: none;
+}
+.contact-list li{
+	margin-bottom: .2vw;
+}
+.contact-list .contact-list-icons{
+	margin-right: .7vw;
+}
+
+.skills-list{
+	padding-left: 1.5vw;
+}
+
+.interest-list{
+	padding-left: 1.5vw;
+}
+
+.education-list-icons{
+	margin-right: .5vw;
+}

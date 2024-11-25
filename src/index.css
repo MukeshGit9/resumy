@@ -6,8 +6,39 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+*{
+  box-sizing: border-box;
+/*  overflow: hidden;*/
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/*scrollbar css-------------------------------------------------------------------------------*/
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+  width: .8vw;
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background-color:#12343b; 
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: #fecb88; 
+  border-radius: 0%;
+}
+
+/* Scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: white; 
+}
+
+/*prevent overflow of container fluid*/
+.Container-fluid-no-overflow{
+  overflow: hidden;
 }
